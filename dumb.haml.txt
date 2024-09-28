@@ -1,0 +1,75 @@
+.container-fluid
+  .row.cards
+    .card-single.card-offshore.col-md-12.col-lg-6
+      .row
+        .col-xs-12.col-sm-6.card-img.offshore-img2
+          #offshoreCharter.carousel.slide{"data-ride" => "carousel"}
+            %ol.carousel-indicators
+              %li.active{"data-target" => "#offshoreCharter", "data-slide-to" => "0"}
+              %li{"data-target" => "#offshoreCharter", "data-slide-to" => "1"}
+              %li{"data-target" => "#offshoreCharter", "data-slide-to" => "2"}
+            .carousel-inner
+              .carousel-item.active{:style => "background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/319606/yellow-dawg-fishing-offshore-01.jpg');"}
+              .carousel-item{:style => "background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/319606/yellow-dawg-fishing-offshore-02.jpg');"}
+              .carousel-item{:style => "background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/319606/yellow-dawg-fishing-offshore-03.jpg');"}
+        .col-xs-12.col-sm-6.card-content
+          .card-height.d-flex.align-items-center.justify-content-center
+            .card-text
+              %h2 Offshore Fishing Charters
+              %p Offshore six to eight hour tours are available. These trips can consist of trolling for mahi, sailfish, kingfish, & Wahoo.
+              %p We also offer offshore bottom fishing trips for grouper, snapper, seabass, cobia, and flounder.
+              %button Learn More
+    .card-single.card-inshore.col-md-12.col-lg-6
+      .row
+        .col-xs-12.col-sm-6.card-img.order-md-1.order-lg-0
+          #inshoreCharter.carousel.slide{"data-ride" => "carousel"}
+            %ol.carousel-indicators
+              %li.active{"data-target" => "#inshoreCharter", "data-slide-to" => "0"}
+              %li{"data-target" => "#inshoreCharter", "data-slide-to" => "1"}
+              %li{"data-target" => "#inshoreCharter", "data-slide-to" => "2"}
+            .carousel-inner
+              .carousel-item.active{:style => "background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/319606/yoellow-dawg-fishing-inshore-01.jpg');"}
+              .carousel-item{:style => "background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/319606/yellow-dawg-fishing-inshore-02.jpg');"}
+              .carousel-item{:style => "background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/319606/yellow-dawg-fishing-inshore-03.jpg');"}
+        .col-xs-12.col-sm-6.card-content.order-md-0.order-lg-1
+          .card-height.d-flex.align-items-center.justify-content-center
+            .card-text
+              %h2 Inshore Fishing Charters
+              %p Praesent et purus mi. Morbi hendrerit magna placerat risus imperdiet pharetra. Duis mi nisi, tempus non aliquet sed, iaculis dictum justo. Donec vulputate dignissim quam, quis varius purus. In dapibus libero ligula, sit amet ultrices lectus venenatis et.
+              %button Learn More
+    .card-single.card-bird-watching.col-md-12.col-lg-6
+      .row
+        .col-xs-12.col-sm-6.card-content.order-md-1.order-lg-0
+          .card-height.d-flex.align-items-center.justify-content-center
+            .card-text
+              %h2 Hook N Cook
+              %p We specialize in the full experience by putting you on the fish and then work with local restaurants to cook your catch!
+              %button Learn More
+        .col-xs-12.col-sm-6.card-img.order-md-0.order-lg-1
+          #birdTour.carousel.slide{"data-ride" => "carousel"}
+            %ol.carousel-indicators
+              %li.active{"data-target" => "#birdTour", "data-slide-to" => "0"}
+              %li{"data-target" => "#birdTour", "data-slide-to" => "1"}
+              %li{"data-target" => "#birdTour", "data-slide-to" => "2"}
+            .carousel-inner
+              .carousel-item.active{:style => "background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/319606/yellow-dawg-fishing-eat-what-you-catch-01.jpg');"}
+              .carousel-item{:style => "background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/319606/yellow-dawg-fishing-eat-what-you-catch-02.jpg');"}
+              .carousel-item{:style => "background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/319606/yellow-dawg-fishing-eat-what-you-catch-03.jpg');"}
+    .card-single.card-manatee-tour.col-md-12.col-lg-6
+      .row
+        .col-xs-12.col-sm-6.card-content
+          .card-height.d-flex.align-items-center.justify-content-center
+            .card-text
+              %h2 Private Sunset Wildlife Tours
+              %p These tours are a fun activity for families and individuals wanting a special, memorable experience. Just show up at the specified time, bring a camera, snacks and beverages ( Beer & wine is permitted ). Tours run about two hours long and give customers many opportunities to see local populations and pods of dolphins. 
+              %button Learn More
+        .col-xs-12.col-sm-6.card-img
+          #manateeTour.carousel.slide{"data-ride" => "carousel"}
+            %ol.carousel-indicators
+              %li.active{"data-target" => "#manateeTour", "data-slide-to" => "0"}
+              %li{"data-target" => "#manateeTour", "data-slide-to" => "1"}
+              %li{"data-target" => "#manateeTour", "data-slide-to" => "2"}
+            .carousel-inner
+              .carousel-item.active{:style => "background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/319606/yellow-dawg-fishing-wildlife-dolphin.jpg');"}
+              .carousel-item{:style => "background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/319606/yellow-dawg-fishing-wildlife-manatee.jpg');"}
+              .carousel-item{:style => "background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/319606/yellow-dawg-fishing-wildlife-bird.jpg');"}
